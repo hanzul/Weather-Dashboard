@@ -1,0 +1,63 @@
+h1{
+    padding: 40px;
+    text-align: center;
+}
+.lead{
+    text-align: center;
+}
+.search-area{
+    background-color: whitesmoke;
+}
+
+.search-btn{
+    background-color: #ada4a4;
+    color: white;
+    padding-top: 10px;
+}
+
+.closeIcon{
+    pointer-events: none;
+}
+
+.city-btn{
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    padding:10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;    
+}
+.button-div{
+
+    padding-left:0px !important;
+    padding-right:0px !important;
+    margin:0px !important;
+}
+
+.delete-btn{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #ff5050;
+    color: white;
+}
+
+.search-bar{
+    padding-bottom:10px;
+}
+
+span{
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.card-content{
+    padding:20px;
+
+}
+.card{
+    background-color: #ff9933;
+    width: 60%;
+}

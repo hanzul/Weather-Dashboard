@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icon/icofont/icofont.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- body -->
+<body>
+    <header>
+        <div>
+            <h1 class="bg-dark text-light">Weather Dashboard</h1>
+            <p id="currentDay" class="lead"></p>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row">
+
+            <div class="col-3 search-area">
+                <div>
+                    <h5>Search for a City:</h5>
+                    <div class="input-group md-form form-sm form-2 pl-0 search-bar">
+                        <input class="form-control my-0 py-0" type="text" placeholder="Search" aria-label="Search"
+                            id="search-bar" />
+                        <button class="input-group-append search-btn" id="search-button">
+                            <i class="icofont-search-1"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="locations"></div>
+
+            </div>
+
+            <div class="col-9">
+                <div id="today"></div>
+                <div class="container" id="five-day"></div>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
